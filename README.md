@@ -1,0 +1,18 @@
+# Supply Chain Analysis
+
+End-to-end supply chain analytics project covering order performance, customer and product profiles, sales representatives, and delivery operations using SQL and Power BI.
+
+## Data Pipeline & Architecture
+- **Bronze Layer:** Raw source tables (`Customers`, `Products`, `Salesman`, `Orders`) loaded into the `SupplyChain` database.
+- **Silver Layer:** Data cleansing and standardization in T-SQL using `TRY_CAST`, string trimming/casing normalization, duplicate handling (`ROW_NUMBER`), `NULL` handling (`COALESCE` / fallback values), calculated fields (`Age`, `Years_In_Company`), and primary keys.
+- **Gold Layer:** Analytical/reporting layer built from the cleaned Silver data to power BI reporting—structured for analytical querying and connected directly to **Power BI** for interactive dashboards, DAX measures, and KPI tracking.
+
+## Tech Stack
+- **SQL (T-SQL / SQL Server):** Data cleaning, transformation, and Gold layer preparation for analytics.
+- **Power BI:** Connected to the Gold layer for interactive reporting, DAX calculations, and visual storytelling.
+
+## Repository Contents
+- SQL scripts for data cleaning and Gold layer preparation.
+- Power BI report file (`.pbix`) and dashboard visuals.
+- `README.md` for project overview and documentation.
+
