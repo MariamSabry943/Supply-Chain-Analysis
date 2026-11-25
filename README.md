@@ -16,3 +16,17 @@ End-to-end supply chain analytics project covering order performance, customer a
 - Power BI report file (`.pbix`) and dashboard visuals.
 - `README.md` for project overview and documentation.
 
+  ## Key Insights
+
+- **$33.05M** total revenue and **$3.97M** total profit (**12%** profit margin).
+- **181K** orders and **21K** customers.
+- **Customers & Markets:** **Consumer** leads with **51.79%** (**11K** customers) , with **$3.73M** in total discounts and **$183.11** average order value.
+- **118** products, **603** salesmen, and **384K** units sold.
+- **Shipping & Delays:** **54.83%** late delivery rate (**99K** late vs. **82K** on-time, **0.57** average shipping delay).
+
+## Recommendations
+
+- Review **Standard Class** shipping operations and **September** delay spikes to lower the **54.83%** late delivery rate and support year-end sales.
+- Re-evaluate discounts (**$3.73M**) and focus on high-profit categories and products (like **Fishing**).
+
+
